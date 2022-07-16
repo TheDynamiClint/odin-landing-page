@@ -1,1 +1,53 @@
 /* css */
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.split-area button,
+.call-to-action button{
+    color: white;
+    background: #3882F6;
+}
+
+.hero,
+header,
+footer{
+    background-color: #1F2937;
+}
+
+.hero-img{
+    background-color: #6e6868;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero h2 p{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+h1{
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.row-three{
+    background-color: #E5E7EB;
+}
+
+ul{
+    list-style-type: none;
+}
