@@ -21,7 +21,7 @@ button{
 }
 
 .call-to-action button{
-    border: 3px solid #F9FAF8;
+    border: 2px solid #F9FAF8;
 }
 
 .call-to-action{
@@ -83,6 +83,39 @@ h1{
     background-color: #E5E7EB;
 }
 
+.row-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    
+}
+
+.call-to-action{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 100px;
+}
+
+div.call-to-action{
+    padding: 40px 80px;
+    border-radius: 5px;
+}
+
+.call-to-action h4,
+.call-to-action p{
+  margin: 0px;
+}
+
 ul{
     list-style-type: none;
+}
+
+.quote{
+    font-style: italic;
+}
+
+.attribution{
+    font-weight: bold;
 }
