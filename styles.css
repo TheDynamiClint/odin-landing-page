@@ -47,6 +47,23 @@ button{
     background: #3882F6;
 }
 
+.card p,
+.row-two h3,
+.attribution p,
+.quote p,
+.call-to-action h4,
+.call-to-action p{
+    margin: 0px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 160px;
+    text-align: center; 
+}
+
 footer{
     display: flex;
     align-items: center;
@@ -61,11 +78,11 @@ footer{
     background-color: #1F2937;
 }
 
-header,
-.hero{
+header{
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0px 80px;
 }
 
 header ul{
@@ -75,16 +92,28 @@ header ul{
     gap: 18px;
 }
 
+.hero{
+    padding: 90px;
+    color: #F9FAF8;
+    display:flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero h2{
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 0px;
+    color: #F9FAF8;
+}
+
 .hero-img{
     background-color: #6e6868;
     color: #E5E7EB;
     font-size: 18px;
-}
-
-.hero h2 p{
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
+    padding: 80px 20px;
+    min-width: 480px;
+    text-align: center;
 }
 
 h1{
@@ -93,35 +122,27 @@ h1{
 }
 
 .img-placeholder{
- width: 160px;
- height: 160px;
- border-radius: 10px;
- border: 3px solid #3882F6;
- margin-bottom: 5px;
-}
-
-.card{
- display: flex;
- flex-direction: column;
- justify-content: center;
- width: 160px;
- text-align: center; 
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+    margin-bottom: 5px;
 }
 
 .image-cards{
- padding: 40px;
- display: flex;
- justify-content: space-between;
- align-items: center;
- gap: 40px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 .row-two{
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- align-items: center;
- padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
 }
 
 .row-two h3{
@@ -145,15 +166,6 @@ h1{
     justify-content: center;
     padding: 70px 40px;
     
-}
-
-.card p,
-.row-two h3,
-.attribution p,
-.quote p,
-.call-to-action h4,
-.call-to-action p{
-  margin: 0px;
 }
 
 .quote{
