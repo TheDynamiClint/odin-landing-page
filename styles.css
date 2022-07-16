@@ -6,8 +6,22 @@ a{
     font-size: 18px;
 }
 
-body{
+body,
+html{
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+button{
+    border: none;
+    padding: 6px 20px;
+    border-radius: 6px;
+}
+
+.call-to-action button{
+    border: 3px solid #F9FAF8;
 }
 
 .call-to-action{
@@ -21,10 +35,31 @@ body{
     background: #3882F6;
 }
 
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
 .hero,
 header,
 footer{
     background-color: #1F2937;
+}
+
+header,
+.hero{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
 }
 
 .hero-img{
