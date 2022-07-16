@@ -1,9 +1,15 @@
 /* css */
-
+   
 a{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.attribution{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
 }
 
 body,
@@ -27,6 +33,12 @@ button{
 .call-to-action{
     background-color: #3882F6;
     color: #F9FAF8;
+    padding: 40px 80px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 100px;
 }
 
 .split-area button,
@@ -40,6 +52,7 @@ footer{
     align-items: center;
     justify-content: center;
     color: #F9FAF8;
+    font-size: 18px;
 }
 
 .hero,
@@ -79,7 +92,50 @@ h1{
     color: #F9FAF8
 }
 
+.img-placeholder{
+ width: 160px;
+ height: 160px;
+ border-radius: 10px;
+ border: 3px solid #3882F6;
+ margin-bottom: 5px;
+}
+
+.card{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ width: 160px;
+ text-align: center; 
+}
+
+.image-cards{
+ padding: 40px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 40px;
+}
+
+.row-two{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ padding: 40px;
+}
+
+.row-two h3{
+     font-weight:bolder;
+     font-size: 36px;
+     color: #1F2937;
+}
+
 .row-three{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 340px;
     background-color: #E5E7EB;
 }
 
@@ -87,35 +143,25 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 40px;
+    padding: 70px 40px;
     
 }
 
-.call-to-action{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    gap: 100px;
-}
-
-div.call-to-action{
-    padding: 40px 80px;
-    border-radius: 5px;
-}
-
+.card p,
+.row-two h3,
+.attribution p,
+.quote p,
 .call-to-action h4,
 .call-to-action p{
   margin: 0px;
 }
 
-ul{
-    list-style-type: none;
-}
-
 .quote{
     font-style: italic;
+    font-weight:100;
+    font-size: 36px;
 }
 
-.attribution{
-    font-weight: bold;
+ul{
+    list-style-type: none;
 }
