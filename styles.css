@@ -109,11 +109,11 @@ header ul{
 
 .hero-img{
     background-color: #6e6868;
-    color: #E5E7EB;
+    /*color: #E5E7EB;
     font-size: 18px;
     padding: 80px 20px;
+    text-align: center;*/
     min-width: 480px;
-    text-align: center;
 }
 
 h1{
